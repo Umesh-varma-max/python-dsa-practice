@@ -6,12 +6,11 @@ class Solution:
         candidate = None
 
         for num in nums:
-            if count == 0:            # pick a new candidate
+            if count == 0:            
                 candidate = num
             count += 1 if num == candidate else -1
 
-        # because the majority element is guaranteed to exist,
-        # candidate is the answer without a second pass
+       
         return candidate
 s=Solution()
 nums=list(map(int,input().split()))

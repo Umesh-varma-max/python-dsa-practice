@@ -1,7 +1,7 @@
 #better approach O(N),O(1)
 def getElements(arr, n):
     if n == 0 or n == 1:
-        print(-1, -1)  # edge case when only one element is present in array
+        print(-1, -1) 
     small = float('inf')
     second_small = float('inf')
     large = float('-inf')
